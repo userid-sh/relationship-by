@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20250622231146"
+  },
+  "applications": ["jhipster"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "strValue",
+      "fieldType": "String"
+    }
+  ],
+  "name": "UserProperty",
+  "relationships": [
+    {
+      "otherEntityName": "appUser",
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "documentation": "by UserProperty.domain == DomainProperty.domain\\nrequired by DomainProperty.mandatory",
+      "otherEntityName": "domainProperty",
+      "relationshipName": "domainProperty",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

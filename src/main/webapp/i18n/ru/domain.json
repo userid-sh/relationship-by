@@ -1,0 +1,24 @@
+{
+  "jhipsterApp": {
+    "domain": {
+      "home": {
+        "title": "Domains",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Domain",
+        "createOrEditLabel": "Создать или отредактировать Domain",
+        "notFound": "Domains не найдено"
+      },
+      "created": "Новый Domain создан с идентификатором {{ param }}",
+      "updated": "Domain обновлен с идентификатором {{ param }}",
+      "deleted": "Domain удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Domain {{ id }}?"
+      },
+      "detail": {
+        "title": "Domain"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+application {
+  entities *
+  dto * with mapstruct
+  service * with serviceImpl
+  paginate Domain, AppUser with pagination
+}
+
+entity Domain {
+  name String required
+}
+
+entity DomainProperty {
+  name String required
+  mandatory Boolean required
+}
+
+entity UserProperty {
+  strValue String
+  // user и domainProperty будут добавлены через relationship
+}
+
+entity AppUser {
+  name String required
+}
+
+relationship ManyToOne {
+  AppUser{domain} to Domain
+  DomainProperty{domain} to Domain,
+  UserProperty{user} to AppUser
+  /**
+ * by UserProperty.domain == DomainProperty.domain
+ * required by DomainProperty.mandatory
+ */
+  UserProperty{domainProperty} to DomainProperty
+}

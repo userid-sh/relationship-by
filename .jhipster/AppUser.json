@@ -1,0 +1,25 @@
+{
+  "annotations": {
+    "changelogDate": "20250622231147"
+  },
+  "applications": ["jhipster"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "AppUser",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "domain",
+      "relationshipName": "domain",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

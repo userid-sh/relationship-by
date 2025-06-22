@@ -1,0 +1,26 @@
+{
+  "jhipsterApp": {
+    "domainProperty": {
+      "home": {
+        "title": "Domain Properties",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Domain Property",
+        "createOrEditLabel": "Создать или отредактировать Domain Property",
+        "notFound": "Domain Properties не найдено"
+      },
+      "created": "Новый Domain Property создан с идентификатором {{ param }}",
+      "updated": "Domain Property обновлен с идентификатором {{ param }}",
+      "deleted": "Domain Property удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Domain Property {{ id }}?"
+      },
+      "detail": {
+        "title": "Domain Property"
+      },
+      "id": "ID",
+      "name": "Name",
+      "mandatory": "Mandatory",
+      "domain": "Domain"
+    }
+  }
+}

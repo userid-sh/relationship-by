@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20250622231145"
+  },
+  "applications": ["jhipster"],
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "mandatory",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "DomainProperty",
+  "relationships": [
+    {
+      "otherEntityName": "domain",
+      "relationshipName": "domain",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

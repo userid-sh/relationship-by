@@ -1,0 +1,26 @@
+{
+  "jhipsterApp": {
+    "userProperty": {
+      "home": {
+        "title": "User Properties",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Property",
+        "createOrEditLabel": "Create or edit a User Property",
+        "notFound": "No User Properties found"
+      },
+      "created": "A new User Property is created with identifier {{ param }}",
+      "updated": "A User Property is updated with identifier {{ param }}",
+      "deleted": "A User Property is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Property {{ id }}?"
+      },
+      "detail": {
+        "title": "User Property"
+      },
+      "id": "ID",
+      "strValue": "Str Value",
+      "user": "User",
+      "domainProperty": "Domain Property"
+    }
+  }
+}
